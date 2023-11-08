@@ -5,6 +5,8 @@ export default function Invoice() {
     const navigate = useNavigate();
     const params = useParams();
     const invoice = getInvoice(Number(params.invoiceId));
+    const baseUrl = process.env.PUBLIC_URL || "";
+
     return (
         <>
             {
@@ -18,7 +20,7 @@ export default function Invoice() {
                     <button
                         onClick={() => {
                             deleteInvoice(invoice.number);
-                            navigate("/invoices" + location.search);
+                            navigate(baseUrl + "invoices" + location.search);
                         }}
                     >
                         Delete
