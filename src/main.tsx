@@ -9,7 +9,7 @@ import InvoicesIndex from './routes/Invoices/InvoicesIdex/index.tsx'
 import Welcome from './routes/Welcome/index.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter >
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<App />} >
         <Route index element={<Welcome />} />

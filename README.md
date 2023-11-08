@@ -2,6 +2,8 @@
 
 Projeto de estudos React-Router + TypeScript + Vite
 
+https://carloscazelattojr.github.io/tutorial-react-router-dom/
+
 ## Instruções
 
 Seguir o tutorial oficial:
@@ -24,4 +26,8 @@ GitHub - Pages
    2) yarn add -D @types/node
 
 ```
+
+Tutorial Githubpages
+
+https://www.youtube.com/watch?v=XhoWXhyuW_I
  
