@@ -16,4 +16,12 @@ Seguir o tutorial oficial:
    3) yarn add react-router-dom@6.4.1 @types/react-router-dom@5.3.3
 
 ```
+
+GitHub - Pages
+
+```ts
+   1) yarn add -D gh-pages
+   2) yarn add -D @types/node
+
+```
  

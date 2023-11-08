@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -10,7 +9,7 @@ import InvoicesIndex from './routes/Invoices/InvoicesIdex/index.tsx'
 import Welcome from './routes/Welcome/index.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter >
     <Routes>
       <Route path="/" element={<App />} >
         <Route index element={<Welcome />} />
