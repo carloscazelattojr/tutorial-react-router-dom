@@ -13,6 +13,7 @@ Seguir o tutorial oficial:
 ```ts
    1) yarn create vite nome_projeto --template react-ts
    2) yarn
+   3) yarn add react-router-dom@6.4.1 @types/react-router-dom@5.3.3
 
 ```
  
